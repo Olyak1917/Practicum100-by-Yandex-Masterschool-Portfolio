@@ -5,7 +5,7 @@ This is my personal Portfolio of demonstrated experience in real-world Data Anal
 
 # Project for a startup that sells food products - Sales Funnel (Conversion) Study, A/A/B Test Results Analysing
 
-**Technologies and Tools** - Pandas, Numpy, Seaborn, Matplotlib, Plotly, Scipy
+**Technologies and Tools** - Python, Jupyter, Pandas, Numpy, Seaborn, Matplotlib, Plotly, Scipy
 
 
 **Goal:** To investigate user behavior for the company's app.
@@ -30,7 +30,7 @@ LINK: [Detailed Project](Startup_AABtest&EventFunnel\start_up_event_funnel&AABte
 #
 
 # SQL Project - Sturtup on Apps for Book Lovers
-**Technologies and Tools** - PostgreSQL, Sqlalchemy, Pandas
+**Technologies and Tools** - Python, Jupyter, PostgreSQL, Sqlalchemy, Pandas
 
 
 **Goal:** The project goal is to generate a value proposition for a new product.
@@ -54,7 +54,49 @@ We would recommend that new product focus on books, released after year 2000, wi
 LINK: [Detailed Project](SQL_project\1_6a_booklovers_new_app_value_proposition_SQL)
 #
 #
-# Tableau Visualisation Project
 
 
-LINK: [Detailed Project](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
+# Visualisation Project - Tableau Public Dashboard
+
+**Goal:** To create Interactive Tableau Dashboard according to the Draft.
+
+**Project Description**
+
+Let's take alook at the draft:
+<p align="center">
+    <img src=Tableau_Public_Project\draft_dashboard.png width=500>
+</p>
+The date and time filter and country filter should modify all of the dashboard's graphs. Note that the interaction history graphs "Trending History" and "Trending History, %" should have date and time along the X axis. "Trending History" should have the number of videos in the trending section (the videos_count field) along the Y axis, and the other graph should have the percentage there.
+
+
+To build the dashboard, complete the following steps:
+
+In Tableau Public, use trending_by_time.csv to create a dashboard modeled on the draft.
+
+Publish the dashboard on the Tableau Public server. Make sure it's available for the entire internet: try opening it in several browsers. 
+
+Use your dashboard to answer the questions the managers asked you:
+
+- Which video categories trended most often?
+- How were they distributed among regions?
+- What categories were especially popular in the United States? Were there any differences between the categories popular in the US and those popular elsewhere?
+
+
+<p align="center">
+    <img src=Tableau_Public_Project\trending_history.jpg width=500>
+</p>
+
+<p align="center">
+    <img src=Tableau_Public_Project\trending_table.jpg width=500>
+</p>
+
+
+LINK: [Brief Presentation](presentation_video_trending1.pdf)
+
+
+
+LINK: [Deshboard](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
+#
+#
+
+# Project

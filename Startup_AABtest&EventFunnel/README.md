@@ -1,5 +1,5 @@
 ## Project for a startup that sells food products - Sales Funnel (Conversion) Study, A/A/B Test Results Analysing
-**Technologies and Tools** - Pandas, Numpy, Seaborn, Matplotlib, Plotly, Scipy
+**Technologies and Tools** - Python, Jupyter, Pandas, Numpy, Seaborn, Matplotlib, Plotly, Scipy
 
 **Project Description**
 
