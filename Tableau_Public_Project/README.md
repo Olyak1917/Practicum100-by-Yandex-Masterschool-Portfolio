@@ -31,7 +31,18 @@ Use your dashboard to answer the questions the managers asked you:
     <img src=trending_table.jpg width=500>
 </p>
 
+#
+
+We publish ready dashboard on the Tableau Public server:
+## Interactive Dashborad on Video Trending by Time and Country
+
+<p align="center">
+    <img src=dashboard_entire.jpg width=500>
+</p>
+
 
 LINK: [Brief Presentation](presentation_video_trending1.pdf)
 
-LINK: [Dashboard](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
+
+
+LINK: [Deshboard](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)

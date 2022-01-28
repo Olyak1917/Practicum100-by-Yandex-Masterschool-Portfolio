@@ -1,6 +1,12 @@
+# Project - EDA and A/B Test Results Analysing
+
 **Technologies and Tools** - Python, Jupyter, Pandas, Seaborn, Matplotlib, Plotly
 
-## Task statement
+
+**Goal:** testing changes related to the introduction of an improved recommendation system.
+
+**Project Description**
+
 
 You've received an analytical task from an international online store. Your predecessor failed to complete it: they launched an A/B test and then quit (to start a watermelon farm in Brazil). They left only the technical specifications and the test results. 
 

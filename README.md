@@ -90,6 +90,11 @@ Use your dashboard to answer the questions the managers asked you:
     <img src=Tableau_Public_Project\trending_table.jpg width=500>
 </p>
 
+#
+
+We publish ready dashboard on the Tableau Public server:
+## Interactive Dashborad on Video Trending by Time and Country
+
 <p align="center">
     <img src=Tableau_Public_Project\dashboard_entire.jpg width=500>
 </p>
