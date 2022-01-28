@@ -202,7 +202,89 @@ After conducting z-test for our A and B groups we cannot reject our H0 hypothesi
 
 We would recommend not introducing changes according to 'interface_eu_test' because test appeared unsuccessful. Also we recommend repeating 'recommender_system_test' properly in accordance with technical specifications.
 
-LINK: [Project](EDA_e_comm\1_6b_e_comm_EDA_ab_test_results_analyzing.ipynb)
+LINK: [Detailed Project](EDA_e_comm\1_6b_e_comm_EDA_ab_test_results_analyzing.ipynb)
 #
 #
-# Project
+# Project - Business Analytics for Yandex Afisha
+
+**Technologies and Tools** - Python, Jupyter, Pandas, Seaborn, Matplotlib, Numpy
+
+
+**Goal:** Market expenses optimisation.
+
+**Project Description**
+You've been offered an internship in the analytical department at Yandex.Afisha. Your first task is to help optimize marketing expenses.
+
+
+You have:
+
+- Server logs with data on Yandex.Afisha visits from June 2017 through May 2018
+
+- Dump file with all orders for the period
+
+- Marketing expenses statistics
+
+
+You are going to study:
+
+- How people use the product
+
+- When they start to buy
+
+- How much money each customer brings
+
+- When they pay off
+
+## Step 1. Download the data and prepare it for analysis
+Store the data on visits, orders, and expenses in variables. Optimize the data for analysis. Make sure each column contains the correct data type.
+
+## Step 2. Make reports and calculate metrics:
+### Product
+- How many people use it every day, week, and month?
+- How many sessions are there per day? (One user might have more than one session.)
+- What is the length of each session?
+- How often do users come back?
+### Sales
+- When do people start buying? (In KPI analysis, we're usually interested in knowing the time that elapses between registration and conversion — when the user becomes a customer. For example, if registration and the first purchase occur on the same day, the user might fall into category Conversion 0d. If the first purchase happens the next day, it will be Conversion 1d. You can use any approach that lets you compare the conversions of different cohorts, so that you can determine which cohort, or marketing channel, is most effective.)
+- How many orders do they make during a given period of time?
+- What is the average purchase size?
+### How much money do they bring? (LTV)
+- Marketing
+- How much money was spent? Overall/per source/over time
+- How much did customer acquisition from each of the sources cost?
+- How worthwhile where the investments? (ROI)
+
+Plot graphs to display how these metrics differ for various devices and ad sources and how they change in time.
+
+## Step 3. Write a conclusion: advise marketing experts how much money to invest and where.
+#
+#
+
+
+
+
+<p align="center">
+    <img src=BA_Ya_Afisha\session_len.jpg width=500>
+</p>
+
+
+<p align="center">
+    <img src=BA_Ya_Afisha\cost1&4&10_by_time.jpg width=500>
+</p>
+
+
+
+
+<p align="center">
+    <img src=BA_Ya_Afisha\heatmapCAC.jpg width=500>
+</p>
+
+
+
+## Conclusion
+
+Based on our findings we would recommend focus on Sources 2 and 4 as they provide highest revenue, good number of same day orders and not the highest CAC. Sources 5 and 1 are also quite close. We like Source 3 also, but there is enormous CAC, we would recommend investigating the situation with this particular source before marketing budget allocation. Recommended costs for Source 3 considered reasonable within those values for Source 4 to be effective. 
+
+We also check all the metrics for Mobile Devices and Desktops separately. Unfortunately, costs data provided have no separation for costs for “touch” platform and costs for “desktop” platform. Under these circumstances calculation of important metrics as CAC, ROMI and so on separately by platform is not possible. Data on orders does not have a session id, as well as data on visits, so we, strictly speaking, even could not be sure what platform the order came from. So, analyzing platforms on “Sales” and “Marketing” parameters seem to be very limited. However, we can analyze various platforms in “Product” part. Our findings show that there are 3 times more visits from “desktops” and session duration is 3 times longer for “desktops”. From these results we can conclude that Desktop version is considered convenient by users and working properly as 773 sec (about 13 min) is perfect duration for studying offers, making choice and placing order. Also we can see that less than a quarter of orders come from “touch” platform. It looks like users look through app on “touch” platform at glance and then go to “desktop” to make orders. So we would recommend to support both platforms as Mobile version is a must nowadays and “desktop” is in evident demand among Yandex.Afisha users. 
+
+LINK: [Detailed Project](BA_Ya_Afisha\7_BA_YaAfisha.ipynb)
