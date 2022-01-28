@@ -54,3 +54,7 @@ We would recommend that new product focus on books, released after year 2000, wi
 LINK: [Detailed Project](SQL_project\1_6a_booklovers_new_app_value_proposition_SQL)
 #
 #
+# Tableau Visualisation Project
+
+
+LINK: [Detailed Project](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
