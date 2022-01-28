@@ -90,6 +90,10 @@ Use your dashboard to answer the questions the managers asked you:
     <img src=Tableau_Public_Project\trending_table.jpg width=500>
 </p>
 
+<p align="center">
+    <img src=Tableau_Public_Project\dashboard_entire.jpg width=500>
+</p>
+
 
 LINK: [Brief Presentation](presentation_video_trending1.pdf)
 
