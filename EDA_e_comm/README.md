@@ -101,11 +101,25 @@ We check if there are users in group B who enter both 'recommender_system_test' 
 Among group B (6311) there are no users who are participating in both tests same time. 928 users participated in 'recommender_system_test' and 5383 users participated in 'interface_eu_test', wthich is 6311 being summed up.
 Based on above data study we understand that we have to choose 'interface_eu_test' for building funnel and analyzing, as A and B groups for 'recommender_system_test' are much smaller than requested (2747+928=3675 against 6000 expected) and unacceptably differ in size (2747 and 928). After that studies we can go to funnel building itself.
 
-As we can see from the funnel, all stage’s conversion has decreased.
+**Group A Conversion**
+<p align="center">
+    <img src=funnelA.jpg width=500>
+</p>
+
+**Group A Conversion**
+<p align="center">
+    <img src=funnelB.jpg width=500>
+</p>
+
+As we can see from the funnels, all stage’s conversion has decreased.
 
 We plot distribution of number of events per user. As we can see from the graph, distribution of events per user is very similar in the samples.
 
 We plot the distribution of events by days. From the graph we can see constant grow of events till 25th of December, 2020. Than we can see sharp decreasing in number of events with a small local peak around New Year date.
+
+<p align="center">
+    <img src=eda_16.jpg width=500>
+</p>
 
 We think of the possible details in the data that we have to take into account before starting the A/B test.
 Important thing we have to take into account is the calendar of Public holidays. It is never a good idea to test anything around X-Mass and A New Year Eve because spikes in purchases related to holidays can distort A/B test results.
@@ -131,3 +145,5 @@ H1 - there is a statistical difference between proportions A and B.
 After conducting z-test for our A and B groups we cannot reject our H0 hypothesis for events 'product_page', 'login' and 'product_cart'. So we do not observe a statistically significant difference between proportions on these stages. For the event 'purchase' we reject our H0 hypothesis. So there is a difference in proportions for event 'purchase'. We choose a statistical significance level as 0.05.
 
 We would recommend not introducing changes according to 'interface_eu_test' because test appeared unsuccessful. Also we recommend repeating 'recommender_system_test' properly in accordance with technical specifications.
+
+LINK: [Project](1_6b_e_comm_EDA_ab_test_results_analyzing.ipynb)

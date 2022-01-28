@@ -108,4 +108,101 @@ LINK: [Deshboard](https://public.tableau.com/app/profile/olga3629/viz/project_10
 #
 #
 
+
+# Project - EDA and A/B Test Results Analysing
+
+**Technologies and Tools** - Python, Jupyter, Pandas, Seaborn, Matplotlib, Plotly
+
+
+**Goal:** Testing changes related to the introduction of an improved recommendation system.
+
+**Project Description**
+
+You've received an analytical task from an international online store. Your predecessor failed to complete it: they launched an A/B test and then quit (to start a watermelon farm in Brazil). They left only the technical specifications and the test results. 
+
+### Technical description
+
+- Test name: `recommender_system_test`
+- Groups: А (control), B (new payment funnel)
+- Launch date: 2020-12-07
+- The date when they stopped taking up new users: 2020-12-21
+- End date: 2021-01-01
+- Audience: 15% of the new users from the EU region
+- Purpose of the test: testing changes related to the introduction of an improved recommendation system
+- Expected result: within 14 days of signing up, users will show better conversion into product page views (the `product_page` event), product card views (`product_card`) and purchases (`purchase`). At each of the stage of the funnel `product_page → product_card → purchase`, there will be at least a 10% increase.
+
+- Expected number of test participants: 6000
+
+Download the test data, see whether it was carried out correctly, and analyze the results. 
+
+
+
+### Instructions on completing the task
+
+- Describe the goals of the research
+- Explore the data
+    - Does it need converting types?
+    - Are there any missing or duplicate values? If so, what's their nature?
+- Carry out exploratory data analysis
+    - Study conversion at different funnel stages
+    - Is the number of events per user distributed equally in the samples?
+    - Are there users who enter both samples?
+    - How is the number of events distributed by days?
+    - Think of the possible details in the data that you have to take into account before starting the A/B test?
+- Evaluate the A/B test results
+    - What can you tell about the A/B test results?
+    - Use the z-criterion to check the statistical difference between the proportions
+- Describe the conclusions on the EDA stage, as well as on the evaluation of the A/B test results
+
+## Conclusion
+
+
+**Group A Conversion**
+<p align="center">
+    <img src=EDA_e_comm\funnelA.jpg width=500>
+</p>
+
+**Group A Conversion**
+<p align="center">
+    <img src=EDA_e_comm\funnelB.jpg width=500>
+</p>
+
+As we can see from the funnels, all stage’s conversion has decreased.
+
+We plot distribution of number of events per user. As we can see from the graph, distribution of events per user is very similar in the samples.
+
+We plot the distribution of events by days. From the graph we can see constant grow of events till 25th of December, 2020. Than we can see sharp decreasing in number of events with a small local peak around New Year date.
+
+<p align="center">
+    <img src=EDA_e_comm\eda_16.jpg width=500>
+</p>
+
+We think of the possible details in the data that we have to take into account before starting the A/B test.
+Important thing we have to take into account is the calendar of Public holidays. It is never a good idea to test anything around X-Mass and A New Year Eve because spikes in purchases related to holidays can distort A/B test results.
+Also before starting A/B test we have to take into account difference in sizes between samples. To be suitable for testing, samples should not differ for more than 10%.
+
+On the next step we evaluate the A/B test results.
+What can we tell about the A/B test results?
+First, as already mentioned samples appeared more suitable for testing are not ones for 'recommender_system_test', but for 'interface_eu_test'. So we had to evaluate 'interface_eu_test' results. 
+Then, condition 15% of EU customers was not fulfilled in either sample.
+
+As for test results of A/B tests - the target - "At each of the stage of the funnel product_page → product_card → purchase, there will be at least a 10% increase" was not achieved. Almost all stages conversion has decreased - from 66.56% to 65.52% for 'product page', from 35.32% to 33.1% for 'purchase'. Only 'product cart' slightly increased from 32.12% to 33.66%, but anyway is far from targeted 10%. And even total purchase sum (column 'details') decreased from 145954 for group A to 129659 for group B.
+
+We conclude that test 'interface_eu_test' was unsuccessful.
+
+Next, we use the z-criterion to check the statistical difference between the proportions.
+
+We formulate statistical hypotheses for to check the statistical difference between the proportions:
+
+H0 - there is no statistical difference between proportions A and B.
+
+H1 - there is a statistical difference between proportions A and B.
+
+After conducting z-test for our A and B groups we cannot reject our H0 hypothesis for events 'product_page', 'login' and 'product_cart'. So we do not observe a statistically significant difference between proportions on these stages. For the event 'purchase' we reject our H0 hypothesis. So there is a difference in proportions for event 'purchase'. We choose a statistical significance level as 0.05.
+
+We would recommend not introducing changes according to 'interface_eu_test' because test appeared unsuccessful. Also we recommend repeating 'recommender_system_test' properly in accordance with technical specifications.
+
+LINK: [Project](EDA_e_comm\1_6b_e_comm_EDA_ab_test_results_analyzing.ipynb)
+#
+#
 # Project
