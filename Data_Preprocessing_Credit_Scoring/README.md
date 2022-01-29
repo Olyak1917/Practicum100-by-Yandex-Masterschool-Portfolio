@@ -83,9 +83,9 @@ Investigation reveals, however, it was over detailed, half (5-6) would already b
 
 Investigation of dataset provided shows that number of children, marital status, income level and purpose of loan can affect on the ability of a potential borrower to repay their loan.
 
-Obtained results illustrate relation between having kids and repaying a loan on time – percentage of debt is higher in customers with kids – 9.2% against 7.5%
+Obtained results illustrate connection between having kids and repaying a loan on time – percentage of debt is higher in customers with kids – 9.2% against 7.5%
 
-Relation between marital status and repaying a loan on time was also found. The less reliable category is unmarried - 9.7% of debt, slightly better is civil partnership - 9.3%. Married looks much better - 7.5%, and the most reliable category turned out widow/widower - 6.6%. Divorced got 7.1%.
+Connection between marital status and repaying a loan on time was also found. The less reliable category is unmarried - 9.7% of debt, slightly better is civil partnership - 9.3%. Married looks much better - 7.5%, and the most reliable category turned out widow/widower - 6.6%. Divorced got 7.1%.
 
 There is rather little dependence of financial reliability on total income. 10K to 25K of total income gives us percentage of debts 8.5-8.3%. BTW, it’s also covers about half of customers. 25K to 30K shows peak in debts – 9.0%. From 30K to 50K it is 6.5-7.8%. 50-60K gives 8.3%. Minimum of debts are in categories - under 10K and above 60K – 6.3% and 5.6%, respectively.
 
@@ -93,9 +93,9 @@ There is rather little dependence of financial reliability on total income. 10K 
     <img src=pivot.jpg width=700>
 </p>
 
-Most impressive is relation in purpose of loan. Thus, purpose “education” shows a record percentage of debts – 34.1%, followed by “car” – 9.3% and “real estate” – 7.2%. “Wedding” looks safest.
+The most impressive is connection by the criterion of the purpose of loan. Thus, purpose “education” shows a record percentage of debts – 34.1%, followed by “car” – 9.3% and “real estate” – 7.2%. “Wedding” seems to be the safest.
 
-So, childfree widow/widower (or divorced) with income above 60K, who want loan for wedding, makes the highest overall credit score.
+So, childfree widow/widower (or divorced) with income above 60K, who wants a loan for wedding, makes the highest overall credit score.
 
 
 
