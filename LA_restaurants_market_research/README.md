@@ -1,4 +1,4 @@
-# Project for Startup - Market Research
+# Project for Startup - Market Research on LA Restaurants
 
 **Technologies and Tools** - Python, Jupyter, Pandas, Numpy, Seaborn, Matplotlib, Plotly
 

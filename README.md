@@ -260,9 +260,6 @@ Plot graphs to display how these metrics differ for various devices and ad sourc
 #
 #
 
-
-
-
 <p align="center">
     <img src=BA_Ya_Afisha\session_len.jpg width=500>
 </p>
@@ -271,8 +268,6 @@ Plot graphs to display how these metrics differ for various devices and ad sourc
 <p align="center">
     <img src=BA_Ya_Afisha\cost1&4&10_by_time.jpg width=500>
 </p>
-
-
 
 
 <p align="center">
@@ -291,7 +286,7 @@ LINK: [Detailed Project](BA_Ya_Afisha\7_BA_YaAfisha.ipynb)
 
 #
 #
-# Project for Startup - Market Research
+# Project for Startup - Market Research on LA Restaurants
 
 **Technologies and Tools** - Python, Jupyter, Pandas, Numpy, Seaborn, Matplotlib, Plotly
 
