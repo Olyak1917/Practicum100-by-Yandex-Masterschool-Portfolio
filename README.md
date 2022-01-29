@@ -288,3 +288,56 @@ Based on our findings we would recommend focus on Sources 2 and 4 as they provid
 We also check all the metrics for Mobile Devices and Desktops separately. Unfortunately, costs data provided have no separation for costs for “touch” platform and costs for “desktop” platform. Under these circumstances calculation of important metrics as CAC, ROMI and so on separately by platform is not possible. Data on orders does not have a session id, as well as data on visits, so we, strictly speaking, even could not be sure what platform the order came from. So, analyzing platforms on “Sales” and “Marketing” parameters seem to be very limited. However, we can analyze various platforms in “Product” part. Our findings show that there are 3 times more visits from “desktops” and session duration is 3 times longer for “desktops”. From these results we can conclude that Desktop version is considered convenient by users and working properly as 773 sec (about 13 min) is perfect duration for studying offers, making choice and placing order. Also we can see that less than a quarter of orders come from “touch” platform. It looks like users look through app on “touch” platform at glance and then go to “desktop” to make orders. So we would recommend to support both platforms as Mobile version is a must nowadays and “desktop” is in evident demand among Yandex.Afisha users. 
 
 LINK: [Detailed Project](BA_Ya_Afisha\7_BA_YaAfisha.ipynb)
+
+#
+#
+# Project for Startup - Market Research
+
+**Technologies and Tools** - Python, Jupyter, Pandas, Numpy, Seaborn, Matplotlib, Plotly
+
+
+**Goal:** To prepare Market Research on Los Angeles restaurants.
+
+**Project Description**
+
+You’ve decided to open a small robot-run cafe in Los Angeles. The project is promising but expensive, so you and your partners decide to try to attract investors. They’re interested in the current market conditions—will you be able to maintain your success when the novelty of robot waiters wears off?
+You’re an analytics guru, so your partners have asked you to prepare some market research. You have open-source data on restaurants in LA.
+#
+
+Type of Establishment for Chain and Non-Chain:
+<p align="center">
+    <img src=LA_restaurants_market_research\stack.jpg width=500>
+</p>
+
+There is an interesting finding - "Bakery" only exists in a chain format.
+
+
+<p align="center">
+    <img src=LA_restaurants_market_research\pie.jpg width=500>
+</p>
+
+
+<p align="center">
+    <img src=LA_restaurants_market_research\seats_among_chain.jpg width=500>
+</p>
+
+
+<p align="center">
+     <img src=LA_restaurants_market_research\avg_seats_each_type.jpg width=500>
+</p>
+
+
+<p align="center">
+    <img src=LA_restaurants_market_research\seats_distr_top.jpg width=500>
+</p>
+
+
+
+## Overall Conclusion and Recommendations
+
+Based on the results of our research we would support the idea of opening a small robot-run cafe in Los Angeles. The project looks promising even after the novelty of robot waiters wearing off because the small size cafés (22-36seats on average) on top popular streets are obviously trending now. We recommend opting for one of the top ten streets by number of restaurants. Before choosing a particular street we recommend to carry out an additional research on which of the top popular streets attracts most of the youth - apparently a primary target audience for whatever "robot-running". The idea of small café also could be extended to chain format as it fully matches to typical chain unit. This could be done after success of the first (trial) launch or it could be a whopping synchronous launch of 3-5 places provided that there is adequate investment attracted.
+
+LINK: [Presentation](https://drive.google.com/file/d/1FU0V-5Gkstn-k7Zs7zcU9LrFpx3yHt0I/view?usp=sharing)
+
+LINK: [Detailed Project](9_LA_restaurants_market_research.ipynb)
+#
