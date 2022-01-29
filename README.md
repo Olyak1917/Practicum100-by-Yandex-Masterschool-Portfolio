@@ -21,8 +21,9 @@ Then look at the results of an A/A/B test. The designers would like to change th
 The users are split into three groups: two control groups get the old fonts and one test group gets the new ones. Find out which set of fonts produces better results.
 
 Creating two A groups has certain advantages. We can make it a principle that we will only be confident in the accuracy of our testing when the two control groups are similar. If there are significant differences between the A groups, this can help us uncover factors that may be distorting the results. Comparing control groups also tells us how much time and data we'll need when running further tests.
+
 <p align="center">
-    <img src=Startup_AABtest&EventFunnel\funnel10.jpg width=500>
+    <img src=Startup_AABtest&EventFunnel\funnel10.jpg width=700>
 </p>
 
 LINK: [Detailed Project](Startup_AABtest&EventFunnel\start_up_event_funnel&AABtest(5))
@@ -64,7 +65,7 @@ LINK: [Detailed Project](SQL_project\1_6a_booklovers_new_app_value_proposition_S
 
 Let's take alook at the draft:
 <p align="center">
-    <img src=Tableau_Public_Project\draft_dashboard.png width=500>
+    <img src=Tableau_Public_Project\draft_dashboard.png width=600>
 </p>
 The date and time filter and country filter should modify all of the dashboard's graphs. Note that the interaction history graphs "Trending History" and "Trending History, %" should have date and time along the X axis. "Trending History" should have the number of videos in the trending section (the videos_count field) along the Y axis, and the other graph should have the percentage there.
 
@@ -83,11 +84,11 @@ Use your dashboard to answer the questions the managers asked you:
 
 
 <p align="center">
-    <img src=Tableau_Public_Project\trending_history.jpg width=500>
+    <img src=Tableau_Public_Project\trending_history.jpg width=700>
 </p>
 
 <p align="center">
-    <img src=Tableau_Public_Project\trending_table.jpg width=500>
+    <img src=Tableau_Public_Project\trending_table.jpg width=700>
 </p>
 
 #
@@ -96,7 +97,7 @@ We publish ready dashboard on the Tableau Public server:
 ## Interactive Dashborad on Video Trending by Time and Country
 
 <p align="center">
-    <img src=Tableau_Public_Project\dashboard_entire.jpg width=500>
+    <img src=Tableau_Public_Project\dashboard_entire.jpg width=700>
 </p>
 
 
@@ -159,12 +160,12 @@ Download the test data, see whether it was carried out correctly, and analyze th
 
 **Group A Conversion**
 <p align="center">
-    <img src=EDA_e_comm\funnelA.jpg width=500>
+    <img src=EDA_e_comm\funnelA.jpg width=700>
 </p>
 
 **Group A Conversion**
 <p align="center">
-    <img src=EDA_e_comm\funnelB.jpg width=500>
+    <img src=EDA_e_comm\funnelB.jpg width=700>
 </p>
 
 As we can see from the funnels, all stage’s conversion has decreased.
@@ -266,12 +267,12 @@ Plot graphs to display how these metrics differ for various devices and ad sourc
 
 
 <p align="center">
-    <img src=BA_Ya_Afisha\cost1&4&10_by_time.jpg width=500>
+    <img src=BA_Ya_Afisha\cost1&4&10_by_time.jpg width=600>
 </p>
 
 
 <p align="center">
-    <img src=BA_Ya_Afisha\heatmapCAC.jpg width=500>
+    <img src=BA_Ya_Afisha\heatmapCAC.jpg width=600>
 </p>
 
 
@@ -308,12 +309,12 @@ There is an interesting finding - "Bakery" only exists in a chain format.
 
 
 <p align="center">
-    <img src=LA_restaurants_market_research\pie.jpg width=500>
+    <img src=LA_restaurants_market_research\pie.jpg width=600>
 </p>
 
 
 <p align="center">
-    <img src=LA_restaurants_market_research\seats_among_chain.jpg width=500>
+    <img src=LA_restaurants_market_research\seats_among_chain.jpg width=550>
 </p>
 
 
@@ -323,7 +324,7 @@ There is an interesting finding - "Bakery" only exists in a chain format.
 
 
 <p align="center">
-    <img src=LA_restaurants_market_research\seats_distr_top.jpg width=500>
+    <img src=LA_restaurants_market_research\seats_distr_top.jpg width=550>
 </p>
 
 
