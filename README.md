@@ -26,7 +26,7 @@ Creating two A groups has certain advantages. We can make it a principle that we
     <img src=Startup_AABtest&EventFunnel\funnel10.jpg width=700>
 </p>
 
-LINK: [Detailed Project](Practicum100-by-Yandex-Masterschool-Portfolio\Startup_AABtest&EventFunnel\start_up_event_funnel&AABtest(5))
+LINK: [Detailed Project](Startup_AABtest&EventFunnel)
 #
 #
 
