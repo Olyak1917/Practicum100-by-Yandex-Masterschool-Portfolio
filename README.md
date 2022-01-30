@@ -52,7 +52,7 @@ You've been given a database of one of the services competing in this market. It
 ## Conclusion
 We would recommend that new product focus on books, released after year 2000, with a reviews from users who rated more than 50 books, and high ratings (>=4), paying special attention on books, published by Penguin Books. No need to say that J.K. Rowling is a must for every books app.
 
-LINK: [Detailed Project](SQL_project\1_6a_booklovers_new_app_value_proposition_SQL)
+LINK: [Detailed Project](SQL_project)
 #
 #
 
@@ -203,7 +203,7 @@ After conducting z-test for our A and B groups we cannot reject our H0 hypothesi
 
 We would recommend not introducing changes according to 'interface_eu_test' because test appeared unsuccessful. Also we recommend repeating 'recommender_system_test' properly in accordance with technical specifications.
 
-LINK: [Detailed Project](EDA_e_comm\1_6b_e_comm_EDA_ab_test_results_analyzing.ipynb)
+LINK: [Detailed Project](EDA_e_comm)
 #
 #
 # Project - Business Analytics for Yandex Afisha
@@ -214,6 +214,7 @@ LINK: [Detailed Project](EDA_e_comm\1_6b_e_comm_EDA_ab_test_results_analyzing.ip
 **Goal:** Market expenses optimisation.
 
 **Project Description**
+
 You've been offered an internship in the analytical department at Yandex.Afisha. Your first task is to help optimize marketing expenses.
 
 
@@ -283,7 +284,7 @@ Based on our findings we would recommend focus on Sources 2 and 4 as they provid
 
 We also check all the metrics for Mobile Devices and Desktops separately. Unfortunately, costs data provided have no separation for costs for “touch” platform and costs for “desktop” platform. Under these circumstances calculation of important metrics as CAC, ROMI and so on separately by platform is not possible. Data on orders does not have a session id, as well as data on visits, so we, strictly speaking, even could not be sure what platform the order came from. So, analyzing platforms on “Sales” and “Marketing” parameters seem to be very limited. However, we can analyze various platforms in “Product” part. Our findings show that there are 3 times more visits from “desktops” and session duration is 3 times longer for “desktops”. From these results we can conclude that Desktop version is considered convenient by users and working properly as 773 sec (about 13 min) is perfect duration for studying offers, making choice and placing order. Also we can see that less than a quarter of orders come from “touch” platform. It looks like users look through app on “touch” platform at glance and then go to “desktop” to make orders. So we would recommend to support both platforms as Mobile version is a must nowadays and “desktop” is in evident demand among Yandex.Afisha users. 
 
-LINK: [Detailed Project](BA_Ya_Afisha\7_BA_YaAfisha.ipynb)
+LINK: [Detailed Project](BA_Ya_Afisha)
 
 #
 #
@@ -335,7 +336,7 @@ Based on the results of our research we would support the idea of opening a smal
 
 LINK: [Presentation](https://drive.google.com/file/d/1FU0V-5Gkstn-k7Zs7zcU9LrFpx3yHt0I/view?usp=sharing)
 
-LINK: [Detailed Project](LA_restaurants_market_research\9_LA_restaurants_market_research.ipynb)
+LINK: [Detailed Project](LA_restaurants_market_research)
 #
 #
 # Project - Data Preprocessing: Report for a Bank's Loan Division
@@ -407,7 +408,7 @@ The most impressive is connection by the criterion of the purpose of loan. Thus,
 
 So, childfree widow/widower (or divorced) with income above 60K, who wants a loan for wedding, makes the highest overall credit score.
 
-LINK: [Detailed Project](Data_Preprocessing_Credit_Scoring\credit_scoring_1.ipynb)
+LINK: [Detailed Project](Data_Preprocessing_Credit_Scoring)
 #
 #
 # Project - Gym Customer Interaction Strategy, based on Supervised (Classification) and Unsupervised (Clustering) Machine Learning
@@ -468,6 +469,7 @@ Model Fitness provided you with CSV files containing data on churn for a given m
 - Look at the mean feature values in two groups: for those who left (churn) and for those who stayed (use the groupby() method).
 - Plot bar histograms and feature distributions for those who left (churn) and those who stayed.
 - Build a correlation matrix and display it.
+
 ### Step 3. Build a model to predict user churn
 Build a binary classification model for customers where the target feature is the user's leaving next month.
 - Divide the data into train and validation sets using the train_test_split() function.
@@ -477,6 +479,7 @@ Build a binary classification model for customers where the target feature is th
 - Evaluate accuracy, precision, and recall for both models using the validation data. Use them to compare the models. Which model gave better results?
 
 Remember to indicate the random_state parameter when dividing data and defining the algorithm.
+
 ### Step 4. Create user clusters
 Set aside the column with data on churn and identify object (user) clusters:
 - Standardize the data.
@@ -485,6 +488,7 @@ Set aside the column with data on churn and identify object (user) clusters:
 - Look at the mean feature values for clusters. Does anything catch your eye?
 - Plot distributions of features for the clusters. Do you notice anything?
 - Calculate the churn rate for each cluster (use the groupby() method). Do they differ in terms of churn rate? Which clusters are prone to leaving, and which are loyal?
+
 ### Step 5. Come up with conclusions and basic recommendations on working with customers
 Draw conclusions and formulate recommendations regarding the strategy for customer interaction and retention.
 
@@ -557,6 +561,6 @@ Clusters 1 and 4 show weakness in 'Partner', 'Promo Friends', 'Group visits'  fe
 
 - As all of them have left their contact phone, it would be useful to conduct a survey to find out what needs to be improved.
 
-LINK: [Detailed Project](Machine_Learning\forecasts_predictions_15.ipynb)
+LINK: [Detailed Project](Machine_Learning)
 #
 #
