@@ -1,6 +1,6 @@
 # SQL Project - Sturtup on Apps for Book Lovers
-**Technologies and Tools** - Python, Jupiter, PostgreSQL, Sqlalchemy, Pandas
 
+**Technologies and Tools** - Python, Jupiter, PostgreSQL, Sqlalchemy, Pandas
 
 **Goal:** The project goal is to generate a value proposition for a new product.
 
