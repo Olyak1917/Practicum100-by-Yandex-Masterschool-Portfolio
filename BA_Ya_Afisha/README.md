@@ -6,6 +6,7 @@
 **Goal:** Market expenses optimisation.
 
 **Project Description**
+
 You've been offered an internship in the analytical department at Yandex.Afisha. Your first task is to help optimize marketing expenses.
 
 
@@ -52,8 +53,6 @@ Plot graphs to display how these metrics differ for various devices and ad sourc
 ## Step 3. Write a conclusion: advise marketing experts how much money to invest and where.
 #
 #
-
-
 
 We download the data and prepare it for the analysis. We remove 2 outliers corresponding to sources 6 and 7 from data on visits as they are statistically insignificant (6 and 36 visits, respectively) and moreover, not represented in data on costs.
 

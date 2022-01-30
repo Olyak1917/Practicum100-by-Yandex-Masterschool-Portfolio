@@ -45,4 +45,4 @@ LINK: [Brief Presentation](presentation_video_trending1.pdf)
 
 
 
-LINK: [Deshboard](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
+LINK: [Dashboard](https://public.tableau.com/app/profile/olga3629/viz/project_10_auto_nz/DashboardonVideoTrending?publish=yes)
