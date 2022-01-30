@@ -303,7 +303,7 @@ You’re an analytics guru, so your partners have asked you to prepare some mark
 
 Type of Establishment for Chain and Non-Chain:
 <p align="center">
-    <img src=LA_restaurants_market_research\stack.jpg width=500>
+    <img src=LA_restaurants_market_research\Stack.jpg width=500>
 </p>
 
 There is an interesting finding - "Bakery" only exists in a chain format.
