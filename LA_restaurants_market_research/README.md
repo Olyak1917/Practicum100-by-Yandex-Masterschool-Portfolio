@@ -66,6 +66,5 @@ LINK: [Presentation](https://drive.google.com/file/d/1FU0V-5Gkstn-k7Zs7zcU9LrFpx
 Based on the results of our research we would support the idea of opening a small robot-run cafe in Los Angeles. The project looks promising even after the novelty of robot waiters wearing off because the small size cafés (22-36seats on average) on top popular streets are obviously trending now. We recommend opting for one of the top ten streets by number of restaurants. Before choosing a particular street we recommend to carry out an additional research on which of the top popular streets attracts most of the youth - apparently a primary target audience for whatever "robot-running". The idea of small café also could be extended to chain format as it fully matches to typical chain unit. This could be done after success of the first (trial) launch or it could be a whopping synchronous launch of 3-5 places provided that there is adequate investment attracted.
 
 
-
 LINK: [Detailed Project](9_LA_restaurants_market_research.ipynb)
 #
