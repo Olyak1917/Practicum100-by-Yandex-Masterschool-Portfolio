@@ -10,7 +10,6 @@ Let's take alook at the draft:
 </p>
 The date and time filter and country filter should modify all of the dashboard's graphs. Note that the interaction history graphs "Trending History" and "Trending History, %" should have date and time along the X axis. "Trending History" should have the number of videos in the trending section (the videos_count field) along the Y axis, and the other graph should have the percentage there.
 
-
 To build the dashboard, complete the following steps:
 
 In Tableau Public, use trending_by_time.csv to create a dashboard modeled on the draft.
