@@ -130,7 +130,6 @@ We plot distributions of features for the clusters. We notice that distributions
 
 We calculate the churn rate for each cluster (using the groupby() method). We find they are quite differ in terms of churn rate. Highest rate is 0.52 - cluster number 1, then 0.44 - cluster 4 and 0.27 - cluster 3. As for clusters 0 and 2, the churn rates are insignificant - 0.07 and 0.03, respectively. So we can expect clusters 1 and 4 are highly likely leaving. Cluster 3 is a little better, probably among undecided. As for clusters 0 and 2 (which gives us 46% of customers), we can consider them loyal. 
 
-
 ## Recommendations on working with customers
 
 Clusters 1 and 4 show weakness in 'Partner', 'Promo Friends', 'Group visits'  features. In the meantime these clusters represent the youngest part (and massive 44%) of total Model Fitness customers. Probably they begin to fill bored, longly, lost and so wipe off in 2-3 months. We would recommend getting close to these customers first. 
